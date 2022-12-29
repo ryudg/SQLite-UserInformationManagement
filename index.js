@@ -48,7 +48,7 @@ app.post("/delete/:id", async (req, res) => {
   res.redirect("/");
 });
 
-const port = 3001;
+const port = 3030;
 app.listen(port, () => {
   console.log(`server running at ${port}`);
 });
