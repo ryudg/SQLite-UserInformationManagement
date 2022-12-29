@@ -26,3 +26,12 @@
 
 # SEO 최적화를 수행
 - favicon, meta data 등 SEO 최적화
+
+![kakao스크린샷](https://user-images.githubusercontent.com/103430498/209915459-194962d7-453c-453c-b638-00fc90591b14.png)
+
+# Cloudtype을 통해 배포됨
+
+![화면 캡처 2022-12-29 160050](https://user-images.githubusercontent.com/103430498/209915663-5dd0d5dc-2f24-4a14-b4ba-1b1c509d694a.png)
+
+### 사용 라이브러리
+- bootstrap : https://getbootstrap.com/
