@@ -25,7 +25,9 @@ app.post("/create", async (req, res) => {
     username: req.body.username,
     age: req.body.age,
     sex: req.body.sex,
-    contact: req.body.contact,
+    contact: req.body.contact
+      .replace(/ /g, "")
+      .replace(/^(\d{2,3})(\d{3,4})(\d{4})$/, `$1-$2-$3`),
   });
   res.redirect("/");
 });
