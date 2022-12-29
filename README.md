@@ -30,7 +30,7 @@
 ![kakao스크린샷](https://user-images.githubusercontent.com/103430498/209915459-194962d7-453c-453c-b638-00fc90591b14.png)
 
 # 정규표현식 사용
-- 전화번호입력시 하이픈 추가
+- 전화번호입력시 출력될때 자동으로 하이픈 추가
 ```javascript
 (index.js)
 ...
