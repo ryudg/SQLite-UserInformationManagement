@@ -1,7 +1,8 @@
 # 고객정보관리 앱
 > cloudtype link : https://port-0-user-information-management-ll32glc8nnjzx.gksl2.cloudtype.app/
 
-![과제2 스크린샷](https://user-images.githubusercontent.com/103430498/209908780-62219509-0b62-486e-a057-412604e3e0b8.png)
+![과제2 스크린샷](https://user-images.githubusercontent.com/103430498/209912893-c191fb71-deaf-43e4-80bf-aa3f53556887.png)
+
 
 # App Introduce
 - 고객 이름 검색 기능과 고객 정보를 추가 및 삭제할 수 있는 어플리케이션
