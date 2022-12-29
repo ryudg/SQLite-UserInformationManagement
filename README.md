@@ -35,15 +35,16 @@
 // (index.js)
 ...
 contact: req.body.contact
-      .replace(/ /g, "")
-      .replace(/^(\d{2,3})(\d{3,4})(\d{4})$/, `$1-$2-$3`),
+      .replace(/ /g, "")  // 공백 지우기
+      .replace(/^(\d{2,3})(\d{3,4})(\d{4})$/, `$1-$2-$3`),  // 숫자를 그룹으로 나눠 그룹 사이에 하이픈(-)추가
 ...
 ```
 - input 값 숫자만 허용
 ```javascript
 // (index.ejs, search.ejs)
 ...
-oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" 
+// ^는 not, 0-9가 not인 것들을 /g (플래그,Global) 전체에서 해당되는 모든 문자열을 담은 배열을 반환하여 ''로 replace
 ...
 ```
 
