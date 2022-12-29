@@ -11,7 +11,7 @@
       content="https://port-0-user-information-management-ll32glc8nnjzx.gksl2.cloudtype.app/"
     />
     <meta property="og:title" content="user-information-management" />
-    <meta property="og:image" content="https://i.imgur.com/cN837XX.png" />
+    <meta property="og:image" content="https://i.ibb.co/M9smPFS/2.png" />
     <meta
       property="og:description"
       content="user-information-management 홈페이지입니다."
@@ -109,6 +109,8 @@
             placeholder="나이 입력"
             autocomplete="off"
             required
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+            maxlength="2"
           />
         </div>
         <div class="gender my-3">
@@ -136,8 +138,11 @@
             type="text"
             name="contact"
             id="contact"
-            placeholder="연락처( ' - ' 을 포함해서 입력)"
+            placeholder="연락처(하이픈 '-' 없이 입력)"
             autocomplete="off"
+            oninput="this.value =
+          this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+            maxlength="11"
           />
         </div>
         <div class="addbtn my-3">

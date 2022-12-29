@@ -106,6 +106,8 @@
             placeholder="나이 입력"
             autocomplete="off"
             required
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+            maxlength="2"
           />
         </div>
         <div class="gender my-3">
@@ -133,8 +135,11 @@
             type="text"
             name="contact"
             id="contact"
-            placeholder="연락처( ' - ' 을 포함해서 입력)"
+            placeholder="연락처(하이픈 '-' 없이 입력)"
             autocomplete="off"
+            oninput="this.value =
+          this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+            maxlength="11"
           />
         </div>
         <div class="addbtn my-3">
