@@ -32,7 +32,7 @@
 # 정규표현식 사용
 - 전화번호입력시 출력될때 자동으로 하이픈 추가
 ```javascript
-(index.js)
+// (index.js)
 ...
 contact: req.body.contact
       .replace(/ /g, "")
@@ -41,7 +41,7 @@ contact: req.body.contact
 ```
 - input 값 숫자만 허용
 ```javascript
-(index.ejs, search.ejs)
+// (index.ejs, search.ejs)
 ...
 oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
 ...
