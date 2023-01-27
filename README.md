@@ -1,7 +1,8 @@
 # 고객정보관리 앱
-> cloudtype link : https://port-0-user-information-management-ll32glc8qggp0.gksl2.cloudtype.app/
+> cloudtype link : https://port-0-ejs-userinformationmanagement-1b5xkk2flddunong.gksl2.cloudtype.app/
 
-![과제2 스크린샷](https://user-images.githubusercontent.com/103430498/209912893-c191fb71-deaf-43e4-80bf-aa3f53556887.png)
+![0127110729846687](https://user-images.githubusercontent.com/103430498/214995137-6391b5a6-ce8b-4871-b066-f559c32ac7c6.jpg)
+
 
 
 # App Introduce
